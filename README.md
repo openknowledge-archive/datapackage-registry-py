@@ -1,4 +1,4 @@
-**This project is **DEPRECATED**. You should use
+**This project is DEPRECATED. You should use
 <https://github.com/datapackages/datapackage-py> instead. This repository is
 just for historical purposes.**
 
