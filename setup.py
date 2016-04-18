@@ -10,7 +10,9 @@ import fnmatch
 
 from setuptools import setup, find_packages
 
-description = "A Python library for working with a Data Package Registry."
+description = (
+    '(DEPRECATED) A Python library for working with a Data Package Registry.'
+)
 with io.open('README.md') as readme:
     long_description = ''.join(
         filter(lambda x: 'https://travis-ci.org/' not in x,
@@ -46,7 +48,7 @@ def schema_files():
 
 setup(
     name='datapackage-registry',
-    version='0.4.0',
+    version='0.5.0',
     url='https://github.com/okfn/datapackage-registry-py',
     license='MIT',
     description=description,
@@ -58,7 +60,7 @@ setup(
     package_data={'datapackage_registry': schema_files()},
     install_requires=dependencies,
     classifiers=[
-        'Development Status :: 4 - Beta',
+        'Development Status :: 7 - Inactive',
         'Intended Audience :: Developers',
         'License :: OSI Approved :: MIT License',
         'Operating System :: OS Independent',
